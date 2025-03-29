@@ -8,6 +8,7 @@ int populacao1,populacao2;
 float area1,area2;
 float pib1,pib2;
 int ponto1, ponto2;
+int carta1, carta2;
 
 //Entrada dados Usuario
 printf("Carta Super Trunfo\n");
@@ -76,12 +77,39 @@ printf("Pib per capita: %.2f\n",percapita2);
 
 
 // comparação e definição da carta vencedora
-if(populacao1 > populacao2){
-    printf("Carta 1 venceu, População : %d\n",populacao1);
-}else{
-    printf("Carta 2 venceu, População: %d\n",populacao2);
-}
+printf("### Escolha o item a ser comparado: ####\n");
+printf("1. População \n");
+printf("2. Area \n ");
+printf("3. PIB \n");
+printf("4. Pontos Turisticos \n");
+printf("5. Densidade \n");
+scanf("%d",&populacao1,populacao2);
+scanf("%.2f",&area1,area2);
+scanf("%.2f",&pib1,&pib2);
+scanf("%d",&ponto1,&ponto2);
+scanf("%.2f",densidade1,densidade2);
 
+switch (carta1)
+{
+case 1:
+    printf("População: \n");
+    break;
+    case 2:
+    printf("Area: \n");
+    break;
+    case 3:
+    printf("Pib: \n");
+    break;
+    case 4:
+    printf("Pontos Turisticos: \n");
+    break;
+    case 5:
+    printf("Densidade: \n");
+    break;
+default:
+printf("Opção Invalida");
+    break;
+}
 
 
 
