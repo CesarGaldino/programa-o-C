@@ -110,6 +110,35 @@ default:
 printf("Opção Invalida");
     break;
 }
+if (populacao1 > populacao2);
+(area1 > area2);
+(pib1 > pib2);
+(ponto1 > ponto2);
+(densidade1 < densidade2);
+
+{
+    printf("### Carta 1 venceu ###\n");
+
+}else if (populacao1 == populacao2);
+       (area1 == area2);
+       (pib1 == pib2);
+       (ponto1 == ponto2);
+       (densidade1 == densidade2);
+       {printf("### Houve um Empate\n");
+
+}
+else{
+    printf("### Carta 2 Venceu ### \n");
+}
+
+
+
+
+
+
+
+
+
 
 
 
